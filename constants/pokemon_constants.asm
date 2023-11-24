@@ -182,8 +182,8 @@
 	const MAGNEMITE          ; $AD
 	const_skip               ; $AE
 	const_skip               ; $AF
-	const CHARMANDER         ; $B0
-	const SQUIRTLE           ; $B1
+	const TORCHIC            ; $B0
+	const MUDKIP             ; $B1
 	const CHARMELEON         ; $B2
 	const WARTORTLE          ; $B3
 	const CHARIZARD          ; $B4
@@ -201,8 +201,8 @@
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 
 ; starters
-DEF STARTER1 EQU CHARMANDER
-DEF STARTER2 EQU SQUIRTLE
+DEF STARTER1 EQU TORCHIC
+DEF STARTER2 EQU MUDKIP
 DEF STARTER3 EQU BULBASAUR
 
 ; ghost Marowak in Pokémon Tower

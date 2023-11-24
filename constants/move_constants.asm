@@ -170,7 +170,40 @@
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
-	const STRUGGLE     ; a5
+	const FAKE_OUT     ; a5
+	const SHEER_COLD   ; a6
+	const METEOR_MASH  ; a7
+	const SHOCK_WAVE   ; a8
+	const HYDRO_CANNON ; a9
+	const UPROAR       ; aa
+	const SHADOW_PUNCH ; ab
+	const ROCK_TOMB    ; ac
+	const SILVER_WIND  ; ad
+	const MIST_BALL    ; ae
+	const BRICK_BREAK  ; af
+	;const DIVE         ; b0
+	const CALM_MIND    ; b1
+	const CHARGE       ; b2
+	const SLACK_OFF    ; b3
+	const CRUSH_CLAW   ; b4
+	const ICE_BALL     ; b5
+	const ASTONISH     ; b6
+	const SKY_UPPERCUT ; b7
+	const BULLET_SEED  ; b8
+	const AERIAL_ACE   ; b9
+	const HOWL         ; ba
+	const SAND_TOMB    ; bb
+	const DRAGON_CLAW  ; bc
+	const WATER_PULSE  ; bd
+	const SIGNAL_BEAM  ; be
+	const IRON_DEFENSE ; bf
+	const MAGICAL_LEAF ; c0
+	const COSMIC_POWER ; c1
+	const HEAT_WAVE    ; c2
+	const BULK_UP      ; c3
+	const LEAF_BLADE   ; c4
+	const DRAGON_DANCE ; c5
+	const STRUGGLE     ; 
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

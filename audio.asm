@@ -17,6 +17,9 @@ INCLUDE "audio/headers/musicheaders2.asm"
 SECTION "Music Headers 3", ROMX
 INCLUDE "audio/headers/musicheaders3.asm"
 
+SECTION "Music Headers 4", ROMX
+INCLUDE "audio/headers/musicheaders4.asm"
+
 
 SECTION "Sound Effects 1", ROMX
 
@@ -376,6 +379,11 @@ INCLUDE "audio/pokedex_rating_sfx.asm"
 INCLUDE "audio/engine_3.asm"
 
 
+SECTION "Audio Engine 4", ROMX
+
+INCLUDE "audio/engine_4.asm"
+
+
 SECTION "Music 1", ROMX
 
 INCLUDE "audio/music/pkmnhealed.asm"
@@ -445,3 +453,8 @@ INCLUDE "audio/music/surfing.asm"
 INCLUDE "audio/music/jigglypuffsong.asm"
 INCLUDE "audio/music/halloffame.asm"
 INCLUDE "audio/music/credits.asm"
+
+
+SECTION "Music 4", ROMX
+
+INCLUDE "audio/music/regi.asm"

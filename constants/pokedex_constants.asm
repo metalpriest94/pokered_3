@@ -7,10 +7,10 @@
 	const DEX_BULBASAUR  ; 1
 	const DEX_IVYSAUR    ; 2
 	const DEX_VENUSAUR   ; 3
-	const DEX_CHARMANDER ; 4
+	const DEX_TORCHIC    ; 4
 	const DEX_CHARMELEON ; 5
 	const DEX_CHARIZARD  ; 6
-	const DEX_SQUIRTLE   ; 7
+	const DEX_MUDKIP     ; 7
 	const DEX_WARTORTLE  ; 8
 	const DEX_BLASTOISE  ; 9
 	const DEX_CATERPIE   ; 10

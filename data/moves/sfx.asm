@@ -165,6 +165,39 @@ MoveSoundTable:
 	db SFX_BATTLE_26,          $f0, $ff ; SUPER_FANG
 	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; SLASH
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
+	db SFX_BATTLE_1E,          $00, $60 ; FAKE_OUT
+	db SFX_BATTLE_29,          $f0, $e0 ; SHEER_COLD
+	db SFX_BATTLE_36,          $f0, $20 ; METEOR_MASH
+	db SFX_BATTLE_26,          $00, $80 ; SHOCK_WAVE
+	db SFX_BATTLE_2A,          $00, $80 ; HYDRO_CANNON
+	db SFX_BATTLE_0B,          $00, $c0 ; UPROAR
+	db SFX_BATTLE_0C,          $10, $80 ; SHADOW_PUNCH
+	db SFX_BATTLE_14,          $01, $e0 ; ROCK_TOMB
+	db SFX_BATTLE_13,          $00, $e0 ; SILVER_WIND
+	db SFX_BATTLE_12,          $00, $c0 ; MIST_BALL
+	db SFX_BATTLE_23,          $01, $c0 ; BRICK_BREAK
+	;db SFX_BATTLE_2A,          $00, $80 ; DIVE
+	db SFX_FAINT_FALL,         $20, $c0 ; CALM_MIND
+	db SFX_BATTLE_2F,          $20, $80 ; CHARGE
+	db SFX_BATTLE_33,          $00, $80 ; SLACK_OFF
+	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; CRUSH_CLAW
+	db SFX_BATTLE_32,          $08, $e0 ; ICE_BALL
+	db SFX_BATTLE_1B,          $03, $60 ; ASTONISH
+	db SFX_NOT_VERY_EFFECTIVE, $20, $c0 ; SKY_UPPERCUT
+	db SFX_BATTLE_1B,          $03, $60 ; BULLET_SEED
+	db SFX_BATTLE_1B,          $03, $60 ; AERIAL_ACE
+	db SFX_BATTLE_0B,          $00, $c0 ; HOWL
+	db SFX_BATTLE_1C,          $00, $80 ; SAND_TOMB
+	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; DRAGON_CLAW
+	db SFX_BATTLE_24,          $20, $60 ; WATER_PULSE
+	db SFX_BATTLE_28,          $00, $80 ; SIGNAL_BEAM
+	db SFX_BATTLE_14,          $01, $e0 ; IRON_DEFENSE
+	db SFX_BATTLE_12,          $20, $e0 ; MAGICAL_LEAF
+	db SFX_BATTLE_33,          $00, $80 ; COSMIC_POWER
+	db SFX_BATTLE_29,          $20, $c0 ; HEAT_WAVE
+	db SFX_BATTLE_33,          $00, $80 ; BULK_UP
+	db SFX_BATTLE_26,          $1f, $18 ; LEAF_BLADE
+	db SFX_BATTLE_33,          $80, $40 ; DRAGON_DANCE
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

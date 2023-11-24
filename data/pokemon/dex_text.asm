@@ -1398,7 +1398,7 @@ _MagnemiteDexEntry::
 	next "similar moves"
 	dex
 
-_CharmanderDexEntry::
+_TorchicDexEntry::
 	text "Obviously prefers"
 	next "hot places. When"
 	next "it rains, steam"
@@ -1408,7 +1408,7 @@ _CharmanderDexEntry::
 	next "its tail"
 	dex
 
-_SquirtleDexEntry::
+_MudkipDexEntry::
 	text "After birth, its"
 	next "back swells and"
 	next "hardens into a"

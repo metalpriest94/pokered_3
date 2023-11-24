@@ -175,5 +175,38 @@ Moves:
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
+	move FAKE_OUT,     FLINCH_SIDE_EFFECT2,         40, NORMAL,       100, 20 ; more PP - No Priority - Reduced flinch chance
+	move SHEER_COLD,   OHKO_EFFECT,                  1, ICE,           30,  5
+	move METEOR_MASH,  ATTACK_DOWN_SIDE_EFFECT,	   100, STEEL,        100, 10
+	move SHOCK_WAVE,   SWIFT_EFFECT,                60, ELECTRIC,     100, 20
+	move HYDRO_CANNON, HYPER_BEAM_EFFECT,          150, WATER,         90,  5
+	move UPROAR,       NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 20 ; no side effects
+	move SHADOW_PUNCH, SWIFT_EFFECT,                60, GHOST,        100, 20
+	move ROCK_TOMB,    SPEED_DOWN_SIDE_EFFECT,      50, ROCK,          80, 10
+	move SILVER_WIND,  ATTACK_UP1_EFFECT,           60, BUG,          100,  5 ; only raises attack
+	move MIST_BALL,    SPECIAL_DOWN_SIDE_EFFECT,    70, PSYCHIC_TYPE, 100,  5 
+	move BRICK_BREAK,  DEFENSE_DOWN_SIDE_EFFECT,    75, FIGHTING,     100, 15 ; reduces defense instead of braking shields
+	;move DIVE,         CHARGE_EFFECT,               80, WATER,        100, 10 ; uses gen4 stats
+	move CALM_MIND,    SPECIAL_UP1_EFFECT,           0, PSYCHIC_TYPE, 100, 20
+    move CHARGE,       SPECIAL_UP1_EFFECT,           0, ELECTRIC,     100, 20 ; Electric-type Calm Mind
+	move SLACK_OFF,	   HEAL_EFFECT,                  0, NORMAL,       100, 10
+	move CRUSH_CLAW,   DEFENSE_DOWN_SIDE_EFFECT,    75, NORMAL,        95, 15 ; more PP
+	move ICE_BALL,     TWO_TO_FIVE_ATTACKS_EFFECT,  20, ICE,           90, 15 ; Barrage-like - Base 20 - reduced PP
+	move ASTONISH,     FLINCH_SIDE_EFFECT2,         40, NORMAL,       100, 20 ; more PP - more damage
+	move SKY_UPPERCUT, NO_ADDITIONAL_EFFECT,        90, FIGHTING,      90, 15 ; no Effect - more damage
+	move BULLET_SEED,  TWO_TO_FIVE_ATTACKS_EFFECT,  10, GRASS,        100, 30
+	move AERIAL_ACE,   SWIFT_EFFECT,                60, FLYING,       100, 20
+	move HOWL,         ATTACK_UP1_EFFECT,            0, NORMAL,       100, 40
+	move SAND_TOMB,    TRAPPING_EFFECT,             15, GROUND,        85, 20 ; uses wrap accuracy
+	move DRAGON_CLAW,  NO_ADDITIONAL_EFFECT,        80, DRAGON,       100, 15
+	move WATER_PULSE,  CONFUSION_SIDE_EFFECT,       60, WATER,        100, 20
+	move SIGNAL_BEAM,  CONFUSION_SIDE_EFFECT,       75, BUG,          100, 15
+	move IRON_DEFENSE, DEFENSE_UP2_EFFECT,           0, STEEL,        100, 15
+	move MAGICAL_LEAF, SWIFT_EFFECT,                60, GRASS,        100, 20
+	move COSMIC_POWER, DEFENSE_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 20 ; only raises defense but by 2
+	move HEAT_WAVE,    BURN_SIDE_EFFECT1,          100, FIRE,          90, 10
+	move BULK_UP,      ATTACK_UP2_EFFECT,            0, FIGHTING,     100, 20 ; only raises attack but by 2
+	move LEAF_BLADE,   NO_ADDITIONAL_EFFECT,        70, GRASS,        100, 15
+	move DRAGON_DANCE, SPEED_UP2_EFFECT,             0, DRAGON,       100, 20 ; only raises speed but by 2
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

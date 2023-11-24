@@ -28,13 +28,13 @@ _OaksLabThoseArePokeBallsText::
 _OaksLabYouWantCharmanderText::
 	text "So! You want the"
 	line "fire #MON,"
-	cont "CHARMANDER?"
+	cont "TORCHIC?"
 	done
 
 _OaksLabYouWantSquirtleText::
 	text "So! You want the"
 	line "water #MON,"
-	cont "SQUIRTLE?"
+	cont "MUDKIP?"
 	done
 
 _OaksLabYouWantBulbasaurText::

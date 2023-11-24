@@ -351,6 +351,12 @@ INCLUDE "gfx/fishing.asm"
 INCLUDE "data/moves/animations.asm"
 INCLUDE "data/battle_anims/subanimations.asm"
 INCLUDE "data/battle_anims/frame_blocks.asm"
+
+
+SECTION "Misc Data", ROMX
+
 INCLUDE "engine/movie/evolution.asm"
 INCLUDE "engine/overworld/elevator.asm"
 INCLUDE "engine/items/tm_prices.asm"
+
+

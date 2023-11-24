@@ -178,8 +178,8 @@ EvosMovesPointerTable:
 	dw MagnemiteEvosMoves
 	dw MissingNoAEEvosMoves
 	dw MissingNoAFEvosMoves
-	dw CharmanderEvosMoves
-	dw SquirtleEvosMoves
+	dw TorchicEvosMoves
+	dw MudkipEvosMoves
 	dw CharmeleonEvosMoves
 	dw WartortleEvosMoves
 	dw CharizardEvosMoves
@@ -1975,7 +1975,7 @@ MissingNoAFEvosMoves:
 ; Learnset
 	db 0
 
-CharmanderEvosMoves:
+TorchicEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 16, CHARMELEON
 	db 0
@@ -1988,7 +1988,7 @@ CharmanderEvosMoves:
 	db 46, FIRE_SPIN
 	db 0
 
-SquirtleEvosMoves:
+MudkipEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 16, WARTORTLE
 	db 0

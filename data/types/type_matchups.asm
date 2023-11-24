@@ -82,4 +82,47 @@ TypeEffects:
 	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
+	db DARK,         GHOST,        SUPER_EFFECTIVE
+	db DARK,         PSYCHIC_TYPE, SUPER_EFFECTIVE
+	db DARK,         DARK,         NOT_VERY_EFFECTIVE
+	db DARK,         FIGHTING,     NOT_VERY_EFFECTIVE
+	db GHOST,        DARK,         NOT_VERY_EFFECTIVE
+	db BUG,          DARK,         SUPER_EFFECTIVE
+	db FIGHTING,     DARK,         SUPER_EFFECTIVE
+	db PSYCHIC_TYPE, DARK,         NO_EFFECT
+	db STEEL,        ROCK,         SUPER_EFFECTIVE
+	db STEEL,        ICE,          SUPER_EFFECTIVE
+	db STEEL,        STEEL,        NOT_VERY_EFFECTIVE
+	db STEEL,        FIRE,         NOT_VERY_EFFECTIVE
+	db STEEL,        WATER,        NOT_VERY_EFFECTIVE
+	db STEEL,        ELECTRIC,     NOT_VERY_EFFECTIVE
+	db NORMAL,       STEEL,        NOT_VERY_EFFECTIVE
+	db GRASS,        STEEL,        NOT_VERY_EFFECTIVE
+	db ROCK,         STEEL,        NOT_VERY_EFFECTIVE
+	db BUG,          STEEL,        NOT_VERY_EFFECTIVE
+	db PSYCHIC_TYPE, STEEL,        NOT_VERY_EFFECTIVE
+	db ICE,          STEEL,        NOT_VERY_EFFECTIVE
+	db DRAGON,       STEEL,        NOT_VERY_EFFECTIVE
+	db STEEL,        STEEL,        NOT_VERY_EFFECTIVE
+	db POISON,       STEEL,        NO_EFFECT
+	db FIGHTING,     STEEL,        SUPER_EFFECTIVE
+	db FIRE,         STEEL,        SUPER_EFFECTIVE
+	db GROUND,       STEEL,        SUPER_EFFECTIVE
+	db FIRE,	     BUGX,		   SUPER_EFFECTIVE ; Shedinja - only Bug type checks effectiveness - there are no 4x effects
+	db ROCK,	     BUGX,		   SUPER_EFFECTIVE
+	db FLYING,	     BUGX,		   SUPER_EFFECTIVE
+	db GHOST,	     BUGX,		   SUPER_EFFECTIVE
+	db DARK,	     BUGX,		   SUPER_EFFECTIVE
+	db NORMAL,	     BUGX,		   NO_EFFECT
+	db FIGHTING,	 BUGX,		   NO_EFFECT
+	db POISON,	     BUGX,		   NO_EFFECT
+	db GROUND,	     BUGX,		   NO_EFFECT
+	db BUG,	         BUGX,		   NO_EFFECT
+	db STEEL,	     BUGX,		   NO_EFFECT
+	db WATER,	     BUGX,		   NO_EFFECT
+	db GRASS,	     BUGX,		   NO_EFFECT
+	db ELECTRIC,	 BUGX,		   NO_EFFECT
+	db PSYCHIC_TYPE, BUGX,		   NO_EFFECT
+	db ICE,	         BUGX,		   NO_EFFECT
+	db DRAGON,	     BUGX,		   NO_EFFECT
 	db -1 ; end
