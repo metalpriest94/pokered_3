@@ -102,7 +102,7 @@ PokedexEntryPointers:
 	dw JigglypuffDexEntry
 	dw WigglytuffDexEntry
 	dw EeveeDexEntry
-	dw FlareonDexEntry
+	dw MetagrossDexEntry
 	dw JolteonDexEntry
 	dw VaporeonDexEntry
 	dw MachopDexEntry
@@ -111,7 +111,7 @@ PokedexEntryPointers:
 	dw ParasDexEntry
 	dw PoliwhirlDexEntry
 	dw PoliwrathDexEntry
-	dw WeedleDexEntry
+	dw LinooneDexEntry
 	dw KakunaDexEntry
 	dw BeedrillDexEntry
 	dw MissingNoDexEntry
@@ -122,9 +122,9 @@ PokedexEntryPointers:
 	dw DewgongDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw CaterpieDexEntry
-	dw MetapodDexEntry
-	dw ButterfreeDexEntry
+	dw PoochyenaDexEntry
+	dw MightyenaDexEntry
+	dw ZigzagoonDexEntry
 	dw MachampDexEntry
 	dw MissingNoDexEntry
 	dw GolduckDexEntry
@@ -152,7 +152,7 @@ PokedexEntryPointers:
 	dw PidgeottoDexEntry
 	dw PidgeotDexEntry
 	dw StarmieDexEntry
-	dw BulbasaurDexEntry
+	dw TreeckoDexEntry
 	dw VenusaurDexEntry
 	dw TentacruelDexEntry
 	dw MissingNoDexEntry
@@ -177,7 +177,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw TorchicDexEntry
 	dw MudkipDexEntry
-	dw CharmeleonDexEntry
+	dw CombuskenDexEntry
 	dw WartortleDexEntry
 	dw CharizardDexEntry
 	dw MissingNoDexEntry
@@ -785,11 +785,11 @@ EeveeDexEntry:
 	text_far _EeveeDexEntry
 	text_end
 
-FlareonDexEntry:
+MetagrossDexEntry:
 	db "FLAME@"
 	db 2,11
 	dw 550
-	text_far _FlareonDexEntry
+	text_far _MetagrossDexEntry
 	text_end
 
 JolteonDexEntry:
@@ -848,11 +848,11 @@ PoliwrathDexEntry:
 	text_far _PoliwrathDexEntry
 	text_end
 
-WeedleDexEntry:
+LinooneDexEntry:
 	db "HAIRY BUG@"
 	db 1,0
 	dw 70
-	text_far _WeedleDexEntry
+	text_far _LinooneDexEntry
 	text_end
 
 KakunaDexEntry:
@@ -904,25 +904,25 @@ DewgongDexEntry:
 	text_far _DewgongDexEntry
 	text_end
 
-CaterpieDexEntry:
+PoochyenaDexEntry:
 	db "WORM@"
 	db 1,0
 	dw 60
-	text_far _CaterpieDexEntry
+	text_far _PoochyenaDexEntry
 	text_end
 
-MetapodDexEntry:
+MightyenaDexEntry:
 	db "COCOON@"
 	db 2,4
 	dw 220
-	text_far _MetapodDexEntry
+	text_far _MightyenaDexEntry
 	text_end
 
-ButterfreeDexEntry:
+ZigzagoonDexEntry:
 	db "BUTTERFLY@"
 	db 3,7
 	dw 710
-	text_far _ButterfreeDexEntry
+	text_far _ZigzagoonDexEntry
 	text_end
 
 MachampDexEntry:
@@ -1072,11 +1072,11 @@ StarmieDexEntry:
 	text_far _StarmieDexEntry
 	text_end
 
-BulbasaurDexEntry:
+TreeckoDexEntry:
 	db "SEED@"
 	db 2,4
 	dw 150
-	text_far _BulbasaurDexEntry
+	text_far _TreeckoDexEntry
 	text_end
 
 VenusaurDexEntry:
@@ -1191,11 +1191,11 @@ MudkipDexEntry:
 	text_far _MudkipDexEntry
 	text_end
 
-CharmeleonDexEntry:
+CombuskenDexEntry:
 	db "FLAME@"
 	db 3,7
 	dw 420
-	text_far _CharmeleonDexEntry
+	text_far _CombuskenDexEntry
 	text_end
 
 WartortleDexEntry:

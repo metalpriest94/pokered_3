@@ -40,7 +40,7 @@ _OaksLabYouWantSquirtleText::
 _OaksLabYouWantBulbasaurText::
 	text "So! You want the"
 	line "plant #MON,"
-	cont "BULBASAUR?"
+	cont "TREECKO?"
 	done
 
 _OaksLabMonEnergeticText::

@@ -105,7 +105,7 @@ EvosMovesPointerTable:
 	dw JigglypuffEvosMoves
 	dw WigglytuffEvosMoves
 	dw EeveeEvosMoves
-	dw FlareonEvosMoves
+	dw MetagrossEvosMoves
 	dw JolteonEvosMoves
 	dw VaporeonEvosMoves
 	dw MachopEvosMoves
@@ -114,7 +114,7 @@ EvosMovesPointerTable:
 	dw ParasEvosMoves
 	dw PoliwhirlEvosMoves
 	dw PoliwrathEvosMoves
-	dw WeedleEvosMoves
+	dw LinooneEvosMoves
 	dw KakunaEvosMoves
 	dw BeedrillEvosMoves
 	dw MissingNo73EvosMoves
@@ -125,9 +125,9 @@ EvosMovesPointerTable:
 	dw DewgongEvosMoves
 	dw MissingNo79EvosMoves
 	dw MissingNo7AEvosMoves
-	dw CaterpieEvosMoves
-	dw MetapodEvosMoves
-	dw ButterfreeEvosMoves
+	dw PoochyenaEvosMoves
+	dw MightyenaEvosMoves
+	dw ZigzagoonEvosMoves
 	dw MachampEvosMoves
 	dw MissingNo7FEvosMoves
 	dw GolduckEvosMoves
@@ -155,7 +155,7 @@ EvosMovesPointerTable:
 	dw PidgeottoEvosMoves
 	dw PidgeotEvosMoves
 	dw StarmieEvosMoves
-	dw BulbasaurEvosMoves
+	dw TreeckoEvosMoves
 	dw VenusaurEvosMoves
 	dw TentacruelEvosMoves
 	dw MissingNo9CEvosMoves
@@ -180,7 +180,7 @@ EvosMovesPointerTable:
 	dw MissingNoAFEvosMoves
 	dw TorchicEvosMoves
 	dw MudkipEvosMoves
-	dw CharmeleonEvosMoves
+	dw CombuskenEvosMoves
 	dw WartortleEvosMoves
 	dw CharizardEvosMoves
 	dw MissingNoB5EvosMoves
@@ -1244,7 +1244,6 @@ WigglytuffEvosMoves:
 
 EeveeEvosMoves:
 ; Evolutions
-	db EV_ITEM, FIRE_STONE, 1, FLAREON
 	db EV_ITEM, THUNDER_STONE, 1, JOLTEON
 	db EV_ITEM, WATER_STONE, 1, VAPOREON
 	db 0
@@ -1255,7 +1254,7 @@ EeveeEvosMoves:
 	db 45, TAKE_DOWN
 	db 0
 
-FlareonEvosMoves:
+MetagrossEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
@@ -1366,11 +1365,20 @@ PoliwrathEvosMoves:
 	db 19, WATER_GUN
 	db 0
 
-WeedleEvosMoves:
+LinooneEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 7, KAKUNA
 	db 0
 ; Learnset
+	db 5, TAIL_WHIP
+	db 9, HEADBUTT
+	db 13, SAND_ATTACK
+	;db 17, 
+	;db 23,
+	db 29, FURY_SWIPES
+	;db 35, 
+	db 41, SLASH
+	db 47, REST
+	;db 53,
 	db 0
 
 KakunaEvosMoves:
@@ -1467,31 +1475,56 @@ MissingNo7AEvosMoves:
 ; Learnset
 	db 0
 
-CaterpieEvosMoves:
+PoochyenaEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 7, METAPOD
+	db EV_LEVEL, 18, MIGHTYENA
 	db 0
 ; Learnset
+	db 5, HOWL
+	db 9, SAND_ATTACK
+	db 13, BITE
+	;db 17, 
+	db 21, ROAR
+	;db 25, 
+	;db 29, 
+	db 33, TAKE_DOWN
+	;db 37, 
+	;db 41, 
+	;db 45, 
 	db 0
 
-MetapodEvosMoves:
+MightyenaEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 10, BUTTERFREE
 	db 0
 ; Learnset
+	db 5, HOWL
+	db 9, SAND_ATTACK
+	db 13, BITE
+	;db 17, 
+	db 22, ROAR
+	;db 27, 
+	;db 32, 
+	db 37, TAKE_DOWN
+	;db 42, 
+	;db 47, 
+	;db 52, 
 	db 0
 
-ButterfreeEvosMoves:
+ZigzagoonEvosMoves:
 ; Evolutions
+    db EV_LEVEL, 20, LINOONE
 	db 0
 ; Learnset
-	db 12, CONFUSION
-	db 15, POISONPOWDER
-	db 16, STUN_SPORE
-	db 17, SLEEP_POWDER
-	db 21, SUPERSONIC
-	db 26, WHIRLWIND
-	db 32, PSYBEAM
+	db 5, TAIL_WHIP
+	db 9, HEADBUTT
+	db 13, SAND_ATTACK
+	;db 17, 
+	;db 21,
+	db 25, PIN_MISSILE
+	;db 29, 
+	;db 33, 
+	db 37, REST
+	db 41, DOUBLE_EDGE
 	db 0
 
 MachampEvosMoves:
@@ -1743,18 +1776,20 @@ StarmieEvosMoves:
 ; Learnset
 	db 0
 
-BulbasaurEvosMoves:
+TreeckoEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 16, IVYSAUR
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 20, POISONPOWDER
-	db 27, RAZOR_LEAF
-	db 34, GROWTH
-	db 41, SLEEP_POWDER
-	db 48, SOLARBEAM
+	db 6, ABSORB
+	db 11, QUICK_ATTACK
+	;db 16 PURSUIT
+	db 21, SCREECH
+	db 26, MEGA_DRAIN
+	db 31, AGILITY
+	db 36, SLAM
+	;db 41, DETECT
+	;db 46, GIGA_DRAIN
 	db 0
 
 VenusaurEvosMoves:
@@ -1977,7 +2012,7 @@ MissingNoAFEvosMoves:
 
 TorchicEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, CHARMELEON
+	db EV_LEVEL, 16, COMBUSKEN
 	db 0
 ; Learnset
 	db 9, EMBER
@@ -2001,17 +2036,21 @@ MudkipEvosMoves:
 	db 42, HYDRO_PUMP
 	db 0
 
-CharmeleonEvosMoves:
+CombuskenEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 36, CHARIZARD
 	db 0
 ; Learnset
-	db 9, EMBER
-	db 15, LEER
-	db 24, RAGE
-	db 33, SLASH
-	db 42, FLAMETHROWER
-	db 56, FIRE_SPIN
+    db 7, FOCUS_ENERGY
+	db 13, EMBER
+	db 16, DOUBLE_KICK
+	db 17, PECK
+	db 21, SAND_ATTACK
+	db 28, BULK_UP
+	db 32, QUICK_ATTACK
+	db 39, SLASH
+	db 43, MIRROR_MOVE
+	db 50, SKY_UPPERCUT
 	db 0
 
 WartortleEvosMoves:

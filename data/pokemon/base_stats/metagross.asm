@@ -1,4 +1,4 @@
-	db DEX_FLAREON ; pokedex id
+	db DEX_METAGROSS ; pokedex id
 
 	db  65, 130,  60,  65, 110
 	;   hp  atk  def  spd  spc
@@ -7,10 +7,10 @@
 	db 45 ; catch rate
 	db 198 ; base exp
 
-	INCBIN "gfx/pokemon/front/flareon.pic", 0, 1 ; sprite dimensions
-	dw FlareonPicFront, FlareonPicBack
+	INCBIN "gfx/pokemon/front/metagross.pic", 0, 1 ; sprite dimensions
+	dw MetagrossPicFront, MetagrossPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, EMBER ; level 1 learnset
+	db METEOR_MASH, CALM_MIND, SIGNAL_BEAM, SHOCK_WAVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

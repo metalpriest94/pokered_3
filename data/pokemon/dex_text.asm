@@ -838,7 +838,7 @@ _EeveeDexEntry::
 	next "element STONEs"
 	dex
 
-_FlareonDexEntry::
+_MetagrossDexEntry::
 	text "When storing"
 	next "thermal energy in"
 	next "its body, its"
@@ -928,7 +928,7 @@ _PoliwrathDexEntry::
 	next "human swimmers"
 	dex
 
-_WeedleDexEntry::
+_LinooneDexEntry::
 	text "Often found in"
 	next "forests, eating"
 	next "leaves."
@@ -1008,7 +1008,7 @@ _DewgongDexEntry::
 	next "cold waters"
 	dex
 
-_CaterpieDexEntry::
+_PoochyenaDexEntry::
 	text "Its short feet"
 	next "are tipped with"
 	next "suction pads that"
@@ -1018,7 +1018,7 @@ _CaterpieDexEntry::
 	next "slopes and walls"
 	dex
 
-_MetapodDexEntry::
+_MightyenaDexEntry::
 	text "This #MON is"
 	next "vulnerable to"
 	next "attack while its"
@@ -1028,7 +1028,7 @@ _MetapodDexEntry::
 	next "and tender body"
 	dex
 
-_ButterfreeDexEntry::
+_ZigzagoonDexEntry::
 	text "In battle, it"
 	next "flaps its wings"
 	next "at high speed to"
@@ -1248,7 +1248,7 @@ _StarmieDexEntry::
 	next "core as a gem"
 	dex
 
-_BulbasaurDexEntry::
+_TreeckoDexEntry::
 	text "A strange seed was"
 	next "planted on its"
 	next "back at birth."
@@ -1418,7 +1418,7 @@ _MudkipDexEntry::
 	next "its mouth"
 	dex
 
-_CharmeleonDexEntry::
+_CombuskenDexEntry::
 	text "When it swings"
 	next "its burning tail,"
 	next "it elevates the"

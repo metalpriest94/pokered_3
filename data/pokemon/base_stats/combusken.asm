@@ -1,16 +1,16 @@
-	db DEX_CHARMELEON ; pokedex id
+	db DEX_COMBUSKEN ; pokedex id
 
-	db  58,  64,  58,  80,  65
+	db  60,  85,  60,  60,  85
 	;   hp  atk  def  spd  spc
 
-	db FIRE, FIRE ; type
+	db FIRE, FIGHTING ; type
 	db 45 ; catch rate
 	db 142 ; base exp
 
-	INCBIN "gfx/pokemon/front/charmeleon.pic", 0, 1 ; sprite dimensions
-	dw CharmeleonPicFront, CharmeleonPicBack
+	INCBIN "gfx/pokemon/front/combusken.pic", 0, 1 ; sprite dimensions
+	dw CombuskenPicFront, CombuskenPicBack
 
-	db SCRATCH, GROWL, EMBER, NO_MOVE ; level 1 learnset
+	db FOCUS_ENERGY, GROWL, EMBER, TACKLE ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

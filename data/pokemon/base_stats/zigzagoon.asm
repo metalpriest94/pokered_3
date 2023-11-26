@@ -1,16 +1,16 @@
-	db DEX_BUTTERFREE ; pokedex id
+	db DEX_ZIGZAGOON ; pokedex id
 
-	db  60,  45,  50,  70,  80
+	db  38,  30,  41,  60,  41
 	;   hp  atk  def  spd  spc
 
-	db BUG, FLYING ; type
-	db 45 ; catch rate
-	db 160 ; base exp
+	db NORMAL, NORMAL ; type
+	db 255 ; catch rate
+	db 51 ; base exp
 
-	INCBIN "gfx/pokemon/front/butterfree.pic", 0, 1 ; sprite dimensions
-	dw ButterfreePicFront, ButterfreePicBack
+	INCBIN "gfx/pokemon/front/zigzagoon.pic", 0, 1 ; sprite dimensions
+	dw ZigzagoonPicFront, ZigzagoonPicBack
 
-	db CONFUSION, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset

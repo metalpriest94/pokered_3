@@ -1,18 +1,18 @@
 MonPartyData:
 	nybble_array MonPartyData
-	nybble ICON_GRASS     ; Bulbasaur
+	nybble ICON_GRASS     ; Treecko
 	nybble ICON_GRASS     ; Ivysaur
 	nybble ICON_GRASS     ; Venusaur
-	nybble ICON_MON       ; Charmander
-	nybble ICON_MON       ; Charmeleon
+	nybble ICON_MON       ; Torchic
+	nybble ICON_MON       ; Combusken
 	nybble ICON_MON       ; Charizard
-	nybble ICON_WATER     ; Squirtle
+	nybble ICON_WATER     ; Mudkip
 	nybble ICON_WATER     ; Wartortle
 	nybble ICON_WATER     ; Blastoise
-	nybble ICON_BUG       ; Caterpie
-	nybble ICON_BUG       ; Metapod
-	nybble ICON_BUG       ; Butterfree
-	nybble ICON_BUG       ; Weedle
+	nybble ICON_QUADRUPED ; Poochyena
+	nybble ICON_QUADRUPED ; Mightyena
+	nybble ICON_QUADRUPED ; Zigzagoon
+	nybble ICON_QUADRUPED ; Linoone
 	nybble ICON_BUG       ; Kakuna
 	nybble ICON_BUG       ; Beedrill
 	nybble ICON_BIRD      ; Pidgey
@@ -135,7 +135,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Eevee
 	nybble ICON_QUADRUPED ; Vaporeon
 	nybble ICON_QUADRUPED ; Jolteon
-	nybble ICON_QUADRUPED ; Flareon
+	nybble ICON_QUADRUPED ; Metagross
 	nybble ICON_MON       ; Porygon
 	nybble ICON_HELIX     ; Omanyte
 	nybble ICON_HELIX     ; Omastar

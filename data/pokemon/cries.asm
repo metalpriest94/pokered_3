@@ -108,7 +108,7 @@ CryData::
 	mon_cry SFX_CRY_0E, $FF, $35 ; Jigglypuff
 	mon_cry SFX_CRY_0E, $68, $60 ; Wigglytuff
 	mon_cry SFX_CRY_1A, $88, $60 ; Eevee
-	mon_cry SFX_CRY_1A, $10, $20 ; Flareon
+	mon_cry SFX_CRY_1A, $10, $20 ; Metagross
 	mon_cry SFX_CRY_1A, $3D, $80 ; Jolteon
 	mon_cry SFX_CRY_1A, $AA, $FF ; Vaporeon
 	mon_cry SFX_CRY_1F, $EE, $01 ; Machop
@@ -117,7 +117,7 @@ CryData::
 	mon_cry SFX_CRY_1E, $20, $E0 ; Paras
 	mon_cry SFX_CRY_0E, $77, $60 ; Poliwhirl
 	mon_cry SFX_CRY_0E, $00, $FF ; Poliwrath
-	mon_cry SFX_CRY_15, $EE, $01 ; Weedle
+	mon_cry SFX_CRY_15, $EE, $01 ; Linoone
 	mon_cry SFX_CRY_13, $FF, $01 ; Kakuna
 	mon_cry SFX_CRY_13, $60, $80 ; Beedrill
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
@@ -128,9 +128,9 @@ CryData::
 	mon_cry SFX_CRY_0C, $23, $FF ; Dewgong
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_16, $80, $20 ; Caterpie
-	mon_cry SFX_CRY_1C, $CC, $01 ; Metapod
-	mon_cry SFX_CRY_16, $77, $40 ; Butterfree
+	mon_cry SFX_CRY_1F, $00, $20 ; Poochyena
+	mon_cry SFX_CRY_1F, $00, $80 ; Mightyena
+	mon_cry SFX_CRY_24, $70, $00 ; Zigzagoon
 	mon_cry SFX_CRY_1F, $08, $C0 ; Machamp
 	mon_cry SFX_CRY_11, $20, $10 ; MissingNo.
 	mon_cry SFX_CRY_21, $FF, $40 ; Golduck
@@ -158,7 +158,7 @@ CryData::
 	mon_cry SFX_CRY_14, $28, $C0 ; Pidgeotto
 	mon_cry SFX_CRY_14, $11, $FF ; Pidgeot
 	mon_cry SFX_CRY_1E, $00, $80 ; Starmie
-	mon_cry SFX_CRY_0F, $80, $01 ; Bulbasaur
+	mon_cry SFX_CRY_20, $60, $30 ; Treecko
 	mon_cry SFX_CRY_0F, $00, $C0 ; Venusaur
 	mon_cry SFX_CRY_1A, $EE, $FF ; Tentacruel
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
@@ -183,7 +183,7 @@ CryData::
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_10, $40, $20 ; Torchic
 	mon_cry SFX_CRY_02, $00, $20 ; Mudkip
-	mon_cry SFX_CRY_04, $20, $40 ; Charmeleon
+	mon_cry SFX_CRY_04, $20, $40 ; Combusken
 	mon_cry SFX_CRY_1D, $20, $40 ; Wartortle
 	mon_cry SFX_CRY_04, $00, $80 ; Charizard
 	mon_cry SFX_CRY_1D, $00, $80 ; MissingNo.

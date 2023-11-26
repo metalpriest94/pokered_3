@@ -109,7 +109,7 @@
 	const JIGGLYPUFF         ; $64
 	const WIGGLYTUFF         ; $65
 	const EEVEE              ; $66
-	const FLAREON            ; $67
+	const METAGROSS          ; $67
 	const JOLTEON            ; $68
 	const VAPOREON           ; $69
 	const MACHOP             ; $6A
@@ -118,7 +118,7 @@
 	const PARAS              ; $6D
 	const POLIWHIRL          ; $6E
 	const POLIWRATH          ; $6F
-	const WEEDLE             ; $70
+	const LINOONE            ; $70
 	const KAKUNA             ; $71
 	const BEEDRILL           ; $72
 	const_skip               ; $73
@@ -129,9 +129,9 @@
 	const DEWGONG            ; $78
 	const_skip               ; $79
 	const_skip               ; $7A
-	const CATERPIE           ; $7B
-	const METAPOD            ; $7C
-	const BUTTERFREE         ; $7D
+	const POOCHYENA          ; $7B
+	const MIGHTYENA          ; $7C
+	const ZIGZAGOON         ; $7D
 	const MACHAMP            ; $7E
 	const_skip               ; $7F
 	const GOLDUCK            ; $80
@@ -159,7 +159,7 @@
 	const PIDGEOTTO          ; $96
 	const PIDGEOT            ; $97
 	const STARMIE            ; $98
-	const BULBASAUR          ; $99
+	const TREECKO            ; $99
 	const VENUSAUR           ; $9A
 	const TENTACRUEL         ; $9B
 	const_skip               ; $9C
@@ -184,7 +184,7 @@
 	const_skip               ; $AF
 	const TORCHIC            ; $B0
 	const MUDKIP             ; $B1
-	const CHARMELEON         ; $B2
+	const COMBUSKEN          ; $B2
 	const WARTORTLE          ; $B3
 	const CHARIZARD          ; $B4
 	const_skip               ; $B5
@@ -203,7 +203,7 @@ DEF NUM_POKEMON_INDEXES EQU const_value - 1
 ; starters
 DEF STARTER1 EQU TORCHIC
 DEF STARTER2 EQU MUDKIP
-DEF STARTER3 EQU BULBASAUR
+DEF STARTER3 EQU TREECKO
 
 ; ghost Marowak in Pokémon Tower
 DEF RESTLESS_SOUL EQU MAROWAK
